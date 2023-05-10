@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#containImg{
+    width: 800px;
+    height: 800px;
+    background-color: antiquewhite;
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
