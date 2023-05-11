@@ -15,12 +15,12 @@ async function getMethod(){
 
     // Asignamos las variables necesarias y las cargamos al HTML
     imgUser.style.backgroundImage = `url("${data.results[0].picture.large}")`
-    nameUser.textContent = `NameUser: ${data.results[0].name.title}.${data.results[0].name.first} ${data.results[0].name.first}`
+    nameUser.textContent = `NameUser: ${data.results[0].name.title}.${data.results[0].name.first} ${data.results[0].name.last}`
     emailUser.textContent = `Email: ${data.results[0].email}`
 
     // Resultados queridos mostrado por consola
     console.log(data.results[0].picture.large)
-    console.log(`${data.results[0].name.title}.${data.results[0].name.first} ${data.results[0].name.first}`)
+    console.log(`${data.results[0].name.title}.${data.results[0].name.first} ${data.results[0].name.last}`)
     console.log(data.results[0].email)
     console.log('____________________________')
 }   
