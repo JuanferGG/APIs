@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(153, 224, 201);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    padding: .7em 1em;
+    border-radius: 2em;
+    box-shadow: 0 0 10px rgb(68, 63, 63);
+    align-items: center;
+    gap: 1em;
+}
+main #imgAPI{
+    width: 300px;
+    height: 300px;
+    background: rgb(94, 84, 84);
+    box-shadow: 0 0 15px rgb(51, 47, 47);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main #description{
+    font-size: 1.5em;
+}
+button{
+    outline: none;
+    font-size: 1.5em;
+    width: fit-content;
+    background: orangered;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: .1em 2em;
+    color: antiquewhite;
+}
